@@ -9,7 +9,7 @@ import (
 
 func main() {
 	// open a shapefile for reading
-	shape, err := shp.Open("ZoneamentoDeTrafegoFinal.shp")
+	shape, err := shp.Open("teste4.shp")
 	if err != nil { log.Fatal(err) }
 	defer shape.Close()
 
